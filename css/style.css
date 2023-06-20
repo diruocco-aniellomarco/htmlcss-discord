@@ -68,15 +68,44 @@ header>div>button {
 
 /* Jumbotron */
 .back_central_container {
-    background-color: #00008b;
-    padding: var(--padding-container);   
+    background-image: url(../img/jumbo.png);
+    padding: var(--padding-container);
+    min-height: 600px;
+    background-size: cover; 
+    
 }
 .central_container {
-    max-width: 800px;
-    height: 400px;
+    max-width: 50%;
+    /* min-height: 200px; */
     margin: 0 auto;
-    background-color: #ee82ee;
-    border: 1px dashed black;
+    margin-top: 100px;
+    text-align: center;
+    /* background-color: #ee82ee;
+    border: 1px dashed black; */
+}
+
+.central_container>* {
+    margin-bottom: 20px;
+    color: white;
+    font-size: 1.5rem;
+}
+.central_container>h1 {
+    font-size: 4rem;
+}
+
+.j_buttons {
+    justify-content: space-evenly;
+}
+
+.j_button {
+    border: none;
+    padding: 15px 30px;
+    border-radius: 25px;
+}
+
+.open-browser {
+    color: white;
+    background-color: #23272a;
 }
 
 /* images and text */
