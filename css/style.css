@@ -1,5 +1,5 @@
 :root {
-    --padding-container: 20px;
+    --padding-container: 100px;
 }
 
 /* Generics */
@@ -21,6 +21,10 @@ a {
     margin: 0 auto;
 }
 
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
 
 /* Utils */
 
@@ -30,7 +34,6 @@ a {
 
 .justify_between {
     justify-content: space-between;
-    justify-content: baseline;
 }
 
 .items-center {
@@ -47,7 +50,7 @@ a {
 header {
     background-color: #255ee9;
     /* min-height: 80px; */
-    padding: var(--padding-container);   
+    padding-top: 20px; 
 }
 
 .header-link>li{
@@ -113,19 +116,34 @@ header>div>button {
     background-color: white;
     padding: var(--padding-container); 
 }
-
+.photo>img {
+    max-width: 100%;
+    background-size: contain;
+}
 .photo {
+    text-align: left;
     width: 70%;
-    height: 400px;
-    background-color: #1e90ff;
-    border: 1px dashed black;
+    /* height: 400px; */
+    /* background-color: #1e90ff; */
+    /* border: 1px dashed black; */
+}
+
+.backg_grey img {
+    float: right;
+}
+
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
 }
 
 .text {
     width: 30%;
-    height: 400px;
-    background-color: #ffc0cb;
-    border: 1px dashed black;
+    padding-top: 30px;
+    /* height: 400px; */
+    /* background-color: #ffc0cb; */
+    /* border: 1px dashed black; */
 }
 
 .backg_grey {
@@ -136,8 +154,9 @@ header>div>button {
 /* big_block */
 .big_block {
     height: 700px;
-    background-color: #228b22;
-    border: 1px dashed black;
+    text-align: center;
+    /* background-color: #228b22;
+    border: 1px dashed black; */
 }
 
 /* Contacts */
