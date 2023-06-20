@@ -240,3 +240,11 @@ footer {
     list-style-type: none;
     line-height: 50px;
 }
+
+.wave {
+    margin-bottom: -5px;
+}
+
+.white {
+    background-color: #d3d3d3;
+}
