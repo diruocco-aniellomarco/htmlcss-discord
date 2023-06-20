@@ -2,20 +2,27 @@
     --padding-container: 20px;
 }
 
+/* Generics */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1.1rem;
 }
 
-ul>li {
-    display: inline-block;
+a {
     text-decoration: none;
+    color: white;
 }
+
 .container {
     max-width: 1180px;
     margin: 0 auto;
 }
+
+
+/* Utils */
 
 .flex {
     display: flex;
@@ -23,20 +30,43 @@ ul>li {
 
 .justify_between {
     justify-content: space-between;
+    justify-content: baseline;
+}
+
+.items-center {
+    align-items: center;
+}
+
+
+/* Header */
+
+.header-link>li {
+    display: inline-block;
 }
 
 header {
-    background-color: #add8e6;
-    min-height: 80px;
+    background-color: #255ee9;
+    /* min-height: 80px; */
     padding: var(--padding-container);   
 }
 
-header>div {
+.header-link>li{
+    padding: 0 40px;
+}
+/* header>div {
     background-color: #daa520;
     padding: 10px;    
     border: 1px dashed black;
+} */
+
+header>div>button {
+    border: none;
+    background-color: white;
+    padding: 7px 15px;
+    border-radius: 25px;
 }
 
+/* Jumbotron */
 .back_central_container {
     background-color: #00008b;
     padding: var(--padding-container);   
