@@ -169,7 +169,12 @@ header>div>button {
     background-color: #8ea1e1;
     color: white;
 }
-
+.background_stars {
+    background-image: url(../img/stars.svg);
+    background-size: 50% 100px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
 /* footer */
 .backg_darkgrey {
     background-color: #23272a;
