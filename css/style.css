@@ -43,9 +43,6 @@ h2 {
 
 /* Header */
 
-.header-link>li {
-    display: inline-block;
-}
 
 header {
     background-color: #255ee9;
@@ -55,6 +52,7 @@ header {
 
 .header-link>li{
     padding: 0 40px;
+    display: inline-block;
 }
 /* header>div {
     background-color: #daa520;
@@ -172,7 +170,7 @@ header>div>button {
     color: white;
 }
 
-/* Contacts */
+/* footer */
 .backg_darkgrey {
     background-color: #23272a;
     padding: var(--padding-container);
@@ -180,34 +178,60 @@ header>div>button {
 
 .f_card {
     width: 25%;
-    height: 400px;
-    background-color: #f08080;
-    border: 1px dashed black;
+    /* height: 400px; */
+    /* background-color: #f08080; */
+    /* border: 1px dashed black; */
+    
 }
 
 .s_card {
     width: 75%;
-    height: 400px;
-    background-color: #20b2aa;
+    /* height: 400px; */
+    /* background-color: #20b2aa; */
 }
 
 .sub_card {
     width: 25%;
-    height: 400px;
-    border: 1px dashed black;
+    /* height: 400px; */
+    /* border: 1px dashed black; */
 }
+
 
 .border_line {
     border-bottom: 1px solid #d6d7d7;
-    margin: 20px
+    margin: 20px auto;
 }
 
-/* footer */
+
 footer>.last_footer {
-    background-color: #7fffd4;
+    /* background-color: #7fffd4; */
     padding: 10px;   
 }
 
 footer {
     min-height: 80px;
+}
+
+.card_container {
+    color: white;
+}
+
+.titolo_card {
+    color:#7187d8;
+}
+
+
+#bandiera_italia {
+    height: 20px;
+}
+.brand_loghi {
+    margin-top: 20px;
+}
+.brand_loghi>span {
+    padding-right: 30px;
+}
+
+.footer_link {
+    list-style-type: none;
+    line-height: 50px;
 }
