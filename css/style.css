@@ -199,12 +199,13 @@ header>div>button {
 
 .border_line {
     border-bottom: 1px solid #d6d7d7;
+    margin: 20px
 }
 
 /* footer */
-footer>div {
+footer>.last_footer {
     background-color: #7fffd4;
-    padding: 10px;    
+    padding: 10px;   
 }
 
 footer {
