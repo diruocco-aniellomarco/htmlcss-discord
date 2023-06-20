@@ -100,7 +100,7 @@ header>div>button {
     justify-content: space-evenly;
 }
 
-.j_button {
+.button {
     border: none;
     padding: 15px 30px;
     border-radius: 25px;
@@ -117,8 +117,9 @@ header>div>button {
     padding: var(--padding-container); 
 }
 .photo>img {
-    max-width: 100%;
-    background-size: contain;
+    /* max-width: 100%;
+    background-size: contain; */
+    width: 100%;
 }
 .photo {
     text-align: left;
@@ -153,10 +154,22 @@ header>div>button {
 
 /* big_block */
 .big_block {
-    height: 700px;
+    min-height: 1000px;
     text-align: center;
     /* background-color: #228b22;
     border: 1px dashed black; */
+}
+.big_block>p {
+    padding: 30px;
+}
+
+.big_block>img {
+    width: 100%;
+    background-size: cover;
+}
+.bb-button {
+    background-color: #8ea1e1;
+    color: white;
 }
 
 /* Contacts */
